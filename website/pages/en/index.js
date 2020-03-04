@@ -164,6 +164,7 @@ class Index extends React.Component {
       </Block>
     );
 
+    /*
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
@@ -192,6 +193,7 @@ class Index extends React.Component {
         </div>
       );
     };
+    */
 
     return (
       <div>
@@ -202,7 +204,6 @@ class Index extends React.Component {
           <LearnHow />
           <TryOut />
           <Description />
-          <Showcase />
         </div>
       </div>
     );

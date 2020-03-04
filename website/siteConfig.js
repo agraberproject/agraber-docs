@@ -11,11 +11,17 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
+    caption: 'A. Guardia',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
+    image: '/img/contributors/aguardia.png',
     infoLink: 'https://www.facebook.com',
+    pinned: true,
+  },
+  {
+    caption: 'JMP Store',
+    image: '/img/contributors/jmp.png',
+    infoLink: 'https://jmpstore.com.br/',
     pinned: true,
   },
 ];

@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'AGraber 30i', // Title for your website.
+  tagline: 'Documentação e Guias',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -30,8 +30,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'agraber-docs',
+  organizationName: 'agraber-30i',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -53,9 +53,10 @@ const siteConfig = {
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
+  /* https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=B0BEC5&secondary.color=424242 */
   colors: {
-    primaryColor: '#a2aa78',
-    secondaryColor: '#717654',
+    primaryColor: '#808e95',
+    secondaryColor: '#424242',
   },
 
   /* Custom fonts for website */
@@ -73,7 +74,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Fecit Anno © ${new Date().getFullYear()} by Heitorado - for the AGraber 30i Open Source project`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

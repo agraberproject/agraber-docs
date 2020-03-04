@@ -38,36 +38,30 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+              Primeiros Passos
             </a>
             <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+              Guias
             </a>
             <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+              FAQs e Dicas gerais
             </a>
           </div>
           <div>
-            <h5>Community</h5>
+            <h5>Comunidade</h5>
             <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
+              Contribuidores
             </a>
             <a
-              href="https://stackoverflow.com/questions/tagged/"
+              href="https://www.thingiverse.com/thing:3436936/"
               target="_blank"
               rel="noreferrer noopener">
-              Stack Overflow
+              Página do Thingiverse
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
-            </a>
+            <a href="https://t.me/agraber_i">Grupo do Telegram</a>
           </div>
           <div>
-            <h5>More</h5>
+            <h5>Mais</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/">GitHub</a>
             <a
@@ -104,19 +98,6 @@ class Footer extends React.Component {
             )}
           </div>
         </section>
-
-        <a
-          href="https://opensource.facebook.com/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );

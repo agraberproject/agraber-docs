@@ -1,8 +1,13 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Primeiros Passos": ["doc1"],
+    "Montagem": ["doc2"],
+    "Configuração e Carregamento do Firmware": ["doc3"],
+    "Configuração do Fatiador": ["doc3"],
+    "Calibração": ["doc1"],
+    "Upgrades e Modificações": ["doc3"],
+    "Dicas e Etcetera": ["doc3"],
+    "Dúvidas Frequentes": ["doc3"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

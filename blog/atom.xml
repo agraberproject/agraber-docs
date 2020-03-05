@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://agraberproject.github.io/agraber-docs/blog"/>
     <subtitle>The best place to stay up-to-date with the latest AGraber 30i news and events.</subtitle>
-    <logo>https://agraberproject.github.io/agraber-docs/img/favicon.ico</logo>
+    <logo>https://agraberproject.github.io/agraber-docs/img/logos/agraber_logo_reduced.png</logo>
     <rights>Fecit Anno © 2020 by Heitorado - for the AGraber 30i Open Source project</rights>
     <entry>
         <title type="html"><![CDATA[New Version 1.0.0]]></title>

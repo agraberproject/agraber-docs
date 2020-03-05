@@ -1,15 +1,16 @@
 {
   "docs": {
-    "Primeiros Passos": ["doc1"],
-    "Montagem": ["doc2"],
-    "Configuração e Carregamento do Firmware": ["doc3"],
-    "Configuração do Fatiador": ["doc3"],
-    "Calibração": ["doc1"],
-    "Upgrades e Modificações": ["doc3"],
-    "Dicas e Etcetera": ["doc3"],
-    "Dúvidas Frequentes": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Disclaimer": ["disclaimer"],
+    "Leia Primeiro - Segurança!": ["safety_basics"],
+    "Primeiros Passos": ["basic_info"],
+    "Montagem": ["starting_the_assembly"],
+    "Acabamento e Organização": ["finishing", "aesthetics", "cable_organization"],
+    "Configuração e Carregamento do Firmware": ["firmare_intro"],
+    "Configuração do Fatiador": ["slicers_intro"],
+    "Calibração": ["calibration_intro"],
+    "Upgrades e Modificações": ["upgrades_and_mods_intro"],
+    "Dicas e Etcetera": ["tips_intro", "misc_info"],
+    "Dúvidas Frequentes": ["faq"],
+    "Pós-Montagem e Boas Práticas": ["post_assembly_intro", "good_practices"]
   }
 }
